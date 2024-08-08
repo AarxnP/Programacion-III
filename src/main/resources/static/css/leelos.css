@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://i.blogs.es/da62f5/dolby-cinema-2/1366_2000.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar-custom {
+    background-color: #343a40;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .nav-link:hover {
+    color: #ffdd57;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 500px;
+}
+.card-body {
+    flex: 1;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
